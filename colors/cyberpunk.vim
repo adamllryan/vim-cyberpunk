@@ -48,7 +48,7 @@ call HighlightFor("CursorLineNr", "#140007", "#00FFC8", "NONE")
 if exists("g:cyberpunk_cursorline") && g:cyberpunk_cursorline == "black"
   call HighlightFor("CursorLine",   "NONE", "#000000", "NONE")
 else
-  call HighlightFor("CursorLine",   "#140007", "#FF0055", "NONE")
+  call HighlightFor("CursorLine",   "#140007", "#80002B", "NONE")
 endif
 
 call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")
